@@ -13,7 +13,7 @@ const showMenu = (toggleId, navId) => {
 showMenu('nav-toggle', 'nav-menu')
 
 /*===== REMOVE MENU MOBILE =====*/
-const navLink = document.querySelectorAll('nav__link')
+const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction() {
   const navMenu = document.getElementById('nav-menu')
@@ -88,7 +88,7 @@ linkPortfolio.forEach(l => l.addEventListener('click', activePortfolio))
 
 
 /*===== SWIPER CAROUSEL =====*/ 
-const mySwiper = new Swiper('.testimonial-container', {
+const mySwiper = new Swiper('.testimonial__container', {
 
   spaceBetween: 16,
   loop: true,

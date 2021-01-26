@@ -223,11 +223,12 @@ img {
   position: fixed;
   right: 1rem;
   bottom: -20%;
-  padding: 0.5rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  padding: 0.5rem;
 
   background-color: rgba(123, 111, 113, 0.7);
   border-radius: 0.5rem;
@@ -276,13 +277,17 @@ img {
   font-size: var(--biggest-font-size);
 }
 
-.home__greeting {
+.home__greeting,
+.home__profession {
   display: block;
   font-weight: var(--font-bold);
+}
+
+.home__greeting {
   font-size: 0.813rem;
 }
 
-.home_profession {
+.home__profession {
   font-size: 0.938rem;
   margin-bottom: var(--mb-3);
 }
